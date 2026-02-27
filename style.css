@@ -345,7 +345,7 @@ body {
 }
 .cards-container {
     display: flex;
-    flex-direction: column; /* stack vertically */
+    flex-direction: row; /* stack vertically */
     align-items: center;    /* center horizontally */
     gap: 2rem;              /* space between cards */
     margin-top: 5rem;       /* space from form section */
@@ -697,4 +697,5 @@ body {
 .social-icons a:hover {
     color: #1877f2;
     transform: translateY(-3px);
+
 }
